@@ -34,7 +34,7 @@ app.use(express.json());
 app.use('/',authRoutes);
 app.use('/products',productRoutes);
 app.use('/cart',cartRoutes);
-app.use('/order',orderRoutes);
+app.use('/orders',orderRoutes);
 
 app.get('/',(req,res)=>{
     res.send('KLE Ecommerce Backend is Running');
